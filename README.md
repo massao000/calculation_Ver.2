@@ -367,7 +367,6 @@
 * [colorama](https://pypi.org/project/colorama/)
 
 ## 備考
-このアプリケーションは自由課題[calculation](https://github.com/massao000/calculation)の期間外で作成したアプリです。
 
 アプリケーションのある位置に新しくrecord_fileが生成され`data.csv`と`text.txt`が格納される
 |記入内容|`text.txt`|`data.csv`|
@@ -380,3 +379,14 @@
 | 正答率 | ○ | ○ |
 
 `data.csv`と`text.txt`にどんどん追記されていきます。
+
+このアプリケーションは自由課題[calculation](https://github.com/massao000/calculation)を期間外で多少いじったアプリです。
+
+* calculationからの改良点
+    *  結果表示(コマンドプロンプト)
+        * 正解、不正解を見やすく色をつけた
+        * 正解、不正解を見やすく縦一列になる様にした
+    * テキストファイル
+        * 結果表示と同じく正解、不正解を見やすく縦一列になる様にした
+    * その他
+        * 結果表示前に「結果を表示します...」と出るようにした
