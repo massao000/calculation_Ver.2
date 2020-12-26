@@ -1,12 +1,9 @@
 # 企画
 
-[test](https://github.com/massao000/calculation_Ver.2/blob/main/README.md#%E5%82%99%E8%80%83)
-
-
 ## アプリケーション概要
 計算力を鍛えるアプリケーションです。
 
-[calculation](https://github.com/massao000/calculation)からのバージョンアップ番です。
+[calculation](https://github.com/massao000/calculation)からのバージョンアップ番です。[改善点](https://github.com/massao000/calculation_Ver.2/blob/main/README.md#%E5%82%99%E8%80%83)
 # 機能一覧
 
 * 1:イージーモード
@@ -393,3 +390,5 @@
         * 結果表示と同じく正解、不正解を見やすく縦一列になる様にした
     * その他
         * 結果表示前に「結果を表示します...」と出るようにした
+
+[TOPに戻る](https://github.com/massao000/calculation_Ver.2/blob/main/README.md#%E4%BC%81%E7%94%BB)
