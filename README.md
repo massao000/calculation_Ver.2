@@ -22,14 +22,14 @@
 
 ## デモ
 ### 終了時にｎを選択した場合
-![gif](https://user-images.githubusercontent.com/69783019/102720293-d5407b80-4336-11eb-9c3d-2926f58e8b72.gif)
+![gif](https://user-images.githubusercontent.com/69783019/103156146-2a720680-47e9-11eb-8537-0624a16cff4a.gif)
 
 「n」を選択した際「画面をクリア中」と出現し三秒後に上に書かれている結果が消えメニュー画面が表示される。
 
 ---
 
 ### 終了時にｙを選択した場合
-![gif](https://user-images.githubusercontent.com/69783019/102720297-da9dc600-4336-11eb-8409-77994c8be920.gif)
+![gif](https://user-images.githubusercontent.com/69783019/103156151-2f36ba80-47e9-11eb-8e20-9321c472a134.gif)
 
 「y」を選択した際「txtとcsvファイルが...」と表示されアプリと同じ階層に「record_file」ファイルが作成され結果がtxtとcsvファイルに書き込まれます。
 
