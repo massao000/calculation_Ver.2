@@ -382,6 +382,8 @@
 
 このアプリケーションは自由課題[calculation](https://github.com/massao000/calculation)を期間外で多少いじったアプリです。
 
+calculation.batを使うにはあらかじめモジュール[colorama](https://pypi.org/project/colorama/)のインストールが必要です。
+
 * calculationからの改良点
     *  結果表示(コマンドプロンプト)
         * 正解、不正解を見やすく色をつけた
