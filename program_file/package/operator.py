@@ -20,13 +20,13 @@ class Writing:
     CURRENT_TIME     = (f'{str(NOW.hour).zfill(2)}:{str(NOW.minute).zfill(2)}:{str(NOW.second).zfill(2)}')
 
     def __init__(self, level_display, issue, answer, problem, time_attack, correct_answer_rate, fraction):
-        self.level_display = level_display # 難易度
-        self.issue_list = issue # 解答の問題
+        self.level_display          = level_display # 難易度
+        self.issue_list             = issue # 解答の問題
         self.correct_incorrect_list = answer # 成か不か
-        self.problem_number = problem # 問題数
-        self.time_attack = time_attack # タイム
-        self.correct_answer_rate = correct_answer_rate # 正答率
-        self.fraction_number = fraction
+        self.problem_number         = problem # 問題数
+        self.time_attack            = time_attack # タイム
+        self.correct_answer_rate    = correct_answer_rate # 正答率
+        self.fraction_number        = fraction
 
     def show(self):
         max = 0
@@ -46,8 +46,8 @@ class Writing:
 class Operator:
     def __init__(self):
         self.problem_list = [] # 出題問題
-        self.answer_list = [] # 不か成か
-        self.csv_data = [] # csv用list
+        self.answer_list  = [] # 不か成か
+        self.csv_data     = [] # csv用list
 
     def random_problem(self, easy, level):
         self.level = level
